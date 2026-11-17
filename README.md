@@ -5,10 +5,10 @@
 
   Client-ready project delivery for small agencies. Run your work on a board; your client gets a live status page and never needs an account.
 
-  [![CI](https://github.com/mahi0601/Motive/actions/workflows/ci.yml/badge.svg)](https://github.com/mahi0601/Motive/actions/workflows/ci.yml)
+  [![CI](https://github.com/mahi0601/ClientGlass/actions/workflows/ci.yml/badge.svg)](https://github.com/mahi0601/ClientGlass/actions/workflows/ci.yml)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-  [Live demo](https://motive-theta.vercel.app) · [API repo](https://github.com/mahi0601/motive-backend)
+  [Live demo](https://motive-theta.vercel.app) · [API repo](https://github.com/mahi0601/clientglass-api)
 </div>
 
 <br>
@@ -24,7 +24,7 @@ Built for agencies and small studios running client work — React + Vite on the
 - Realtime notifications and a keyboard-driven command palette
 - Email or Google sign-in, installable as a PWA or a native Android app
 
-The API lives in a sibling repo — [motive-backend](https://github.com/mahi0601/motive-backend).
+The API lives in a sibling repo — [clientglass-api](https://github.com/mahi0601/clientglass-api).
 
 ## Quick start
 
@@ -34,7 +34,7 @@ cp .env.example .env      # point VITE_API_BASE_URL at your running backend
 npm run dev                 # http://localhost:5173
 ```
 
-Get [motive-backend](https://github.com/mahi0601/motive-backend) running first — this app has nothing to talk to without it.
+Get [clientglass-api](https://github.com/mahi0601/clientglass-api) running first — this app has nothing to talk to without it.
 
 `npm run lint` · `npm run test` · `npm run build` — all three stay clean before every deploy (and run in CI).
 
